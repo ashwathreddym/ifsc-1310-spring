@@ -1,0 +1,58 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }body {
+      
+    background-image: url("../img/back.webp");
+
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-blend-mode:difference;
+    
+   }
+   h1{
+     color:#FFF;
+     text-align: center;
+   }
+   nav {
+	background-color: rgb(16, 41, 80);
+}
+nav ul {
+	list-style-type:disc;
+	margin-left: 10px;
+}
+nav ul li {
+	display: inline;
+	height: 35px;
+	line-height: 35px;
+}
+nav ul li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+nav ul li a:hover {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+footer{
+    background:  rgb(16, 41, 80);
+    color:#FFF;
+text-align: center;
+  
+    padding:20px;
+  }
